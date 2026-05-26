@@ -8,7 +8,7 @@
 <meta property="og:description" content="Transforme o tempo de tela em tempo com Deus."/>
 <meta property="og:image" content="https://i.imgur.com/mFYpGya.png"/>
 <meta name="twitter:card" content="summary_large_image"/>
-<title>Kit de Aventuras Bíblicas | Momentos com Deus em Família</title>
+<title>Kit de Aventuras Bíblicas Para Colorir! | Momentos com Deus em Família</title>
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet"/>
@@ -392,15 +392,77 @@
     nav { padding: 0 4%; }
     .section { padding: 60px 5%; }
   }
+
+  /* ── OFFER TOP BAR (below nav) ── */
+  .offer-top-bar {
+    background: linear-gradient(135deg, var(--green), #1B4332);
+    padding: 22px 5%;
+    text-align: center;
+    box-shadow: 0 4px 20px rgba(45,106,79,0.25);
+  }
+  .offer-top-bar .otb-label {
+    font-size: 0.75rem; font-weight: 800; letter-spacing: .1em; text-transform: uppercase;
+    color: rgba(255,255,255,0.7); margin-bottom: 4px;
+  }
+  .offer-top-bar .otb-title {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(1.3rem, 3vw, 2rem);
+    color: #fff; margin-bottom: 6px; line-height: 1.2;
+  }
+  .offer-top-bar .otb-title em { color: var(--gold-light); font-style: normal; }
+  .offer-top-bar .otb-sub {
+    font-size: 0.85rem; color: rgba(255,255,255,0.75); margin-bottom: 18px;
+  }
+  .offer-top-bar .btn-main {
+    font-size: 1rem; padding: 15px 36px;
+  }
+  .offer-top-bar .otb-trust {
+    margin-top: 10px; font-size: 0.78rem; color: rgba(255,255,255,0.6);
+  }
+  .offer-top-bar .otb-trust b { color: var(--gold-light); }
+
+  /* ── BOOK COVER ── */
+  .offer-book-cover {
+    margin: 0 auto 20px;
+    width: 100%;
+    max-width: 200px;
+  }
+  .offer-book-cover img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+    box-shadow: 0 8px 28px rgba(61,28,0,0.22), 0 2px 6px rgba(61,28,0,0.12);
+    transition: transform .2s;
+  }
+  .offer-card:hover .offer-book-cover img { transform: scale(1.03) translateY(-3px); }
+
+  @media (max-width: 600px) {
+    .offer-book-cover { max-width: 160px; }
+    .offer-top-bar { padding: 20px 5%; }
+    .offer-top-bar .otb-title { font-size: 1.2rem; }
+  }
 </style>
 </head>
 <body>
 
 <!-- NAVBAR -->
 <nav>
-  <div class="nav-logo">✝ Aventuras Bíblicas</div>
+  <div class="nav-logo">✝ Aventuras Bíblicas Para Colorir!</div>
   <a href="#cards-ofertas" class="nav-cta">Quero o Kit →</a>
 </nav>
+
+<!-- OFFER TOP BAR -->
+<div class="offer-top-bar">
+  <p class="otb-label">✨ Escolha sua oferta</p>
+  <h2 class="otb-title">Comece hoje mesmo por apenas <em>R$24,99</em></h2>
+  <p class="otb-sub">Acesso imediato no e-mail após a compra. Sem mensalidade, sem surpresa.</p>
+  <a href="#cards-ofertas" class="btn-main">
+    VER OPÇÕES DE COMPRA
+    <span>Acesso imediato • Garantia de 7 dias</span>
+  </a>
+  <p class="otb-trust">🔒 Compra segura &nbsp;|&nbsp; <b>✓ Garantia</b> incondicional de 7 dias</p>
+</div>
 
 <!-- HERO -->
 <section class="hero">
@@ -711,9 +773,9 @@
 
 <!-- FOOTER -->
 <footer>
-  <p style="font-size:1.1rem; font-weight:800; color:rgba(255,255,255,.85); margin-bottom:8px;">✝ Kit de Aventuras Bíblicas</p>
+  <p style="font-size:1.1rem; font-weight:800; color:rgba(255,255,255,.85); margin-bottom:8px;">✝ Kit de Aventuras Bíblicas Para Colorir</p>
   <p>Este é um produto digital. O acesso será enviado ao seu e-mail após a confirmação da compra.</p>
-  <p style="margin-top:12px;">© 2025 Kit de Aventuras Bíblicas. Todos os direitos reservados.</p>
+  <p style="margin-top:12px;">© 2026 Kit de Aventuras Bíblicas Para Colorir! Todos os direitos reservados.</p>
 </footer>
 
 <script>
